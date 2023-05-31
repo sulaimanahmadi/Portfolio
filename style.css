@@ -1,0 +1,136 @@
+* ::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  background-image: url(./svg/illustration-header-mobile.svg);
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  height: 690px;
+  width: 375px;
+}
+
+header {
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-logo {
+  padding: 12px 12px 12px 24px;
+}
+
+.main-logo > .logo {
+  align-self: flex-end;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+nav {
+  align-self: flex-end;
+  padding: 12px 24px 12px 12px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 0 24px;
+  justify-content: center;
+  gap: 12px;
+}
+
+h1 {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h2 {
+  width: 327px;
+  height: 97px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.h2-color {
+  color: black;
+}
+
+p {
+  width: 327px;
+  height: 123px;
+  margin-top: -35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.details > p {
+  max-width: 566px;
+}
+
+.social-media {
+  display: flex;
+  gap: 22.3px;
+  margin-left: -32px;
+  margin-bottom: 130px;
+}
+
+.social-media > li {
+  list-style-type: none;
+}
+
+.menu-bar {
+  display: none;
+}
+
+
+
+
