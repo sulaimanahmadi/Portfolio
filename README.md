@@ -3,7 +3,7 @@
 # 📗 Table of Content's
 
 - [📗 Table of Content's](#-table-of-contents)
-- [📖 Portfolio Final mobile version ](#-portfolio-final-mobile-version-)
+- [📖 Portfolio  mobile version ](#-portfolio--mobile-version-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -24,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Final mobile version <a name="about-project"></a>
+# 📖 Portfolio  mobile version <a name="about-project"></a>
 
-**Portfolio Final mobile version** is a portfoilo website as a beginner Full stack web Developer. it  show final mobile version skeleton of portfolio
+**Portfolio  mobile version** is a portfoilo website as a beginner Full stack web Developer. it  show  mobile version skeleton of portfolio
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +64,7 @@ I find the following features to be intresting:
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+N/A
     
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +95,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd MyPortfolio
+  cd Portfolio
   code .
 ```
 
@@ -120,7 +120,6 @@ Example command:
 ### Deployment
 
 - GitHub pages
-https://sulaimanahmadi.github.io/Portfolio/
 
 <!--
 Example:
