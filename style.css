@@ -517,3 +517,28 @@ p {
   margin-top: 15px;
 }
 
+.about-me-2 .topic > p {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+  align-items: center;
+  display: block;
+  margin-left: 20px;
+}
+
+.about-me-2 ul li > a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 43px;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
