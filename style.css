@@ -167,9 +167,13 @@ p {
 }
 
 .line {
-  border: 1px solid black;
-  margin: 0 34px 56px 34px;
   margin-top: -90px;
+  width: 327px;
+  height: 0;
+  border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .work1-content {
@@ -180,7 +184,7 @@ p {
 
 .work-placeholder > img {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .content-data {
@@ -467,15 +471,17 @@ p {
 }
 
 .line2 {
-  border: 1px solid white;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: -30px;
+  position: absolute;
+  height: 0;
+  left: 20px;
+  right: 20px;
+  margin-top: -170px;
+  border: 1px solid #fff;
 }
 
 .about-me-2 {
   width: 327px;
-  margin-top: -100px;
+  margin-top: -250px;
   background-color: #1c1a19;
   display: grid;
   justify-content: center;
@@ -483,7 +489,7 @@ p {
   list-style: none;
 }
 
-.about-me-2 .topic {
+.about-me-2 .topic1 > p {
   width: 164px;
   height: 24px;
   font-family: 'InaiMathi', sans-serif;
@@ -497,15 +503,73 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-left: 40px;
+  margin-top: -29px;
 }
 
-.about-me-2 .topic > img {
-  width: 22px;
-  height: 22px;
+.about-me-2 .topic2 > p {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 35px;
+  margin-top: -27px;
+}
+
+.about-me-2 .topic3 > p {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: inline;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 20px;
+  margin-top: -27px;
+}
+
+.about-me-2 .topic1 > img {
+  width: 18px;
+  height: 18px;
   flex: none;
   order: 0;
   flex-grow: 0;
   align-items: center;
+}
+
+.about-me-2 .topic2 > img {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.about-me-2 .topic3 > img {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  margin-left: 25px;
 }
 
 .discussion {
@@ -518,28 +582,13 @@ p {
   margin-top: 15px;
 }
 
-.about-me-2 .topic > p {
-  font-family: "InaiMathi", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-  max-width: 100%;
-  max-height: 100%;
-  margin-top: 10px;
-  align-items: center;
-  display: block;
-  margin-left: 20px;
-}
-
 .about-me-2 ul li > a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 22px;
   line-height: 43px;
-  color: white;
+  color: #fff;
   list-style-type: none;
   text-decoration: none;
 }
