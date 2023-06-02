@@ -290,7 +290,7 @@ p {
   background-color: #1c1a19;
   background-repeat: no-repeat;
   background-position-x: center;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 .work2-content > * {
