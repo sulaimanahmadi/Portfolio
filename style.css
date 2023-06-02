@@ -322,6 +322,7 @@ p {
 
 .work2-content ul {
   display: flex;
+  font-family: "Inter", sans-serif;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -331,7 +332,6 @@ p {
   flex: none;
   order: 2;
   flex-grow: 0;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -543,39 +543,10 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 65px;  
+  margin-left: 65px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-/* .about-me-2 .topic1 > img {
-  width: 18px;
-  height: 18px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-items: center;
-}
-
-.about-me-2 .topic2 > img {
-  width: 18px;
-  height: 18px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-items: center;
-  margin-left: -10px;
-}
-
-.about-me-2 .topic3 > img {
-  width: 18px;
-  height: 18px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-items: center;
-  margin-left: 25px;
-} */
 
 .discussion {
   padding: 0;
@@ -599,23 +570,23 @@ p {
   text-decoration: none;
 }
 
-.icon{
+.icon {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
   transform: rotate(-45deg);
 }
 
-.icon2{
+.icon2 {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
-.icon3{
+.icon3 {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
   border-radius: 150px;
   margin-top: 10px;
   margin-left: 25px;
