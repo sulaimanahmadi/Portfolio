@@ -170,7 +170,7 @@ p {
   margin-top: -90px;
   width: 327px;
   height: 0;
-  border: 1px solid #212121;
+  border: thin solid black;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -296,7 +296,7 @@ p {
   padding: 0 12px 0 12px;
 }
 
-.work2-content > h2 {
+.work2-content > h1 {
   margin-top: 80px;
   font-family: "Crete Round", serif;
   font-size: 32px;
@@ -306,10 +306,6 @@ p {
   letter-spacing: 0;
   text-align: left;
   color: white;
-}
-
-.work2-content > h1 {
-  display: none;
 }
 
 .work2-content > p {
@@ -330,11 +326,17 @@ p {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 247px;
-  height: 40px;
+  width: 43px;
+  height: 20px;
   flex: none;
   order: 2;
   flex-grow: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -30px;
 }
 
 .work2-content li {
@@ -356,7 +358,7 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 8px;
-  width: 60px;
+  width: 70px;
   height: 25px;
   flex: none;
   order: 2;
@@ -504,7 +506,8 @@ p {
   order: 1;
   flex-grow: 0;
   margin-left: 40px;
-  margin-top: -29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .about-me-2 .topic2 > p {
@@ -522,7 +525,8 @@ p {
   order: 1;
   flex-grow: 0;
   margin-left: 35px;
-  margin-top: -27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .about-me-2 .topic3 > p {
@@ -533,17 +537,18 @@ p {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  display: inline;
+  display: flex;
   align-items: center;
   color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 20px;
-  margin-top: -27px;
+  margin-left: 65px;  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.about-me-2 .topic1 > img {
+/* .about-me-2 .topic1 > img {
   width: 18px;
   height: 18px;
   flex: none;
@@ -570,7 +575,7 @@ p {
   flex-grow: 0;
   align-items: center;
   margin-left: 25px;
-}
+} */
 
 .discussion {
   padding: 0;
@@ -579,7 +584,8 @@ p {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-top: 15px;
+  margin-top: 30px;
+  gap: 8px;
 }
 
 .about-me-2 ul li > a {
@@ -591,4 +597,26 @@ p {
   color: #fff;
   list-style-type: none;
   text-decoration: none;
+}
+
+.icon{
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+  transform: rotate(-45deg);
+}
+
+.icon2{
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+}
+
+.icon3{
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+  border-radius: 150px;
+  margin-top: 10px;
+  margin-left: 25px;
 }
