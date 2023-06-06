@@ -715,6 +715,7 @@ p {
 }
 
 .sm-two {
+  justify-content: center;
   margin: 0;
   padding: 23px 95px 21px 99px;
 }
