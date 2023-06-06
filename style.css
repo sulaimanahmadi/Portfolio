@@ -613,7 +613,6 @@ p {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  
   width: 327px;
   flex: none;
   order: 0;
@@ -627,7 +626,6 @@ p {
   list-style: none;
   margin-left: -20px;
   margin-right: -10px;
-  
 }
 
 .inputa {
@@ -654,7 +652,7 @@ p {
 .separator1 {
   width: auto;
   border: 1px solid #dbd8d7;
-  margin: 14px 0px 0px 0px;
+  margin: 14px 0 0 0;
 }
 
 .input1 > input {
