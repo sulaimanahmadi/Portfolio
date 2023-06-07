@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  flex-grow: 0;
 }
 
 .container {
@@ -19,7 +20,8 @@ body {
 .main {
   background-image: none;
   height: 980px;
-  width: 104%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .background-adjust {
