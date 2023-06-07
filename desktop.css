@@ -163,14 +163,14 @@ body {
   width: 448px;
   height: 48px;
   margin-top: 75px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -178,7 +178,7 @@ body {
 
 .work1-visual > .line {
   width: 794px;
-  height: 0px;
+  height: 0;
   margin: 105px 24px 56px 24px;
   border: 1px solid #212121;
   flex: none;
@@ -256,7 +256,6 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
 .work2-content ul {
@@ -367,7 +366,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   gap: 24px;
-  padding: 0px;
+  padding: 0;
   width: 289.46px;
   height: 281.46px;
 }
@@ -417,5 +416,19 @@ body {
   padding-top: 10px;
 }
 
+.separator1 {
+  border: 1px solid #dbd8d7;
+  width: auto;
+  max-width: 530px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
+.sm-two {
+  flex-direction: row;
+  margin: 0;
+}
 
+.separator-2 {
+  display: none;
+}
