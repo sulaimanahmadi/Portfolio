@@ -125,10 +125,6 @@ body {
   margin-bottom: 130px;
 }
 
-.work-placeholder:hover {
-  transform: scale(1.05);
-}
-
 .work-placeholder {
   width: 684px;
   height: 448px;
@@ -136,6 +132,10 @@ body {
   order: 0;
   flex-grow: 0;
   transition: transform 2s;
+}
+
+.work-placeholder:hover {
+  transform: scale(1.05);
 }
 
 .work1-visual {
