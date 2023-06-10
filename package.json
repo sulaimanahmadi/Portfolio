@@ -1,30 +1,24 @@
 {
-  "dependencies": {
-    "lighthouse": "^9.6.2"
-  },
-  "name": "My-Portfolio",
-  "description": "My Portfolio ## Built With 1. HTML 2. CSS 3. Linters 4. Git/Github Live Demo Link",
+  "name": "linters-project",
   "version": "1.0.0",
+  "description": "<!--\r HOW TO USE:\r This is an example of how you may give instructions on setting up your project locally.",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
     "hint": "^7.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
   },
-  "scripts": {
-    "webhint": "hint http://localhost:8080"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eaesmat/My-Portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eaesmat/My-Portfolio/issues"
-  },
-  "homepage": "https://github.com/eaesmat/My-Portfolio#readme"
+  "type": "module"
 }
