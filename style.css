@@ -344,7 +344,6 @@ p {
 .work2-content li {
   display: flex;
   flex-direction: row;
-  align-items: right;
   padding: 8px 10px;
   width: 67px;
   height: 30px;
