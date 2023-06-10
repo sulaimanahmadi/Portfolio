@@ -126,6 +126,7 @@ body {
 }
 
 .work-placeholder {
+  transition: transform 2s;
   width: 684px;
   height: 448px;
   flex: none;
