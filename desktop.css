@@ -68,7 +68,7 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff#;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -179,7 +179,7 @@ body {
 }
 
 .work1-visual > .line {
-  width: 794px;
+  width: 65%;
   height: 0;
   margin: 105px 24px 56px 24px;
   border: 1px solid #212121;
@@ -196,7 +196,7 @@ body {
   grid-template-columns: auto auto auto;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1200px) {
   .work-display {
     display: grid;
     grid-template-columns: auto auto;
@@ -358,9 +358,9 @@ body {
 .about-me-2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 206px;
+  gap: 150px;
   padding-bottom: 146px;
-  margin-left: 600px;
+  width: 100%;
 }
 
 .discussion {
@@ -368,7 +368,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   gap: 24px;
-  padding: 0;
+  padding-left: 20px;
   width: 289.46px;
   height: 281.46px;
 }
@@ -416,6 +416,7 @@ body {
   flex-direction: column;
   gap: 5px;
   padding-top: 10px;
+  padding-left: 0;
 }
 
 .separator1 {
@@ -424,6 +425,7 @@ body {
   max-width: 530px;
   margin-top: 10px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .sm-two {

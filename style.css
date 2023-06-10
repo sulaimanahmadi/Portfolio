@@ -509,7 +509,7 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 40px;
+  margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -528,7 +528,7 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 35px;
+  margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -547,7 +547,7 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 65px;
+  margin-left: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -561,6 +561,7 @@ p {
   list-style: none;
   margin-top: 30px;
   gap: 8px;
+  margin-left: -15px;
 }
 
 .about-me-2 ul li > a {
@@ -599,7 +600,7 @@ p {
 .form-section {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: 20px;
   align-items: center;
 }
 
@@ -625,8 +626,7 @@ p {
   flex-direction: column;
   padding: 0;
   list-style: none;
-  margin-left: -20px;
-  margin-right: -10px;
+  padding-left: 20px;
 }
 
 .inputa {
@@ -634,7 +634,7 @@ p {
 }
 
 .input1 {
-  margin: 0 40px 0 40px;
+  margin: 0 40px 0 20px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
