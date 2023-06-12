@@ -64,7 +64,7 @@ I find the following features to be intresting:
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-N/A
+https://sulaimanahmadi.github.io/Portfolio/
     
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
