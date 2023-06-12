@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  flex-grow: 0;
 }
 
 .container {
@@ -19,7 +20,8 @@ body {
 .main {
   background-image: none;
   height: 980px;
-  width: 104%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .background-adjust {
@@ -66,7 +68,7 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff#;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -122,21 +124,20 @@ body {
 .work-1 {
   margin-left: 153px;
   margin-right: 153px;
-  margin-bottom: 130px;
+  margin-bottom: 140px;
 }
 
 .work-placeholder {
-  transition: transform 2s;
   width: 684px;
   height: 448px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  transition: transform 2s;
 }
 
-.work-placeholder:hover {
-  transform: scale(1.05);
+.work1-content {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .work1-visual {
@@ -160,12 +161,31 @@ body {
   flex-grow: 0;
 }
 
+.content-data > h2 {
+  width: 448px;
+  height: 48px;
+  margin-top: 75px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .work1-visual > .line {
-  flex: 1;
-  width: 794px;
-  margin: 0 24px 56px 24px;
-  align-self: self-end;
+  width: 65%;
+  height: 0;
+  margin: 105px 24px 56px 24px;
   border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .work-display {
@@ -176,7 +196,7 @@ body {
   grid-template-columns: auto auto auto;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1200px) {
   .work-display {
     display: grid;
     grid-template-columns: auto auto;
@@ -196,7 +216,7 @@ body {
 .work-2 {
   background: none;
   width: 369px;
-  height: 435px;
+  height: 420px;
   background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./svg/Placeholder-desktop14.svg);
 }
 
@@ -226,7 +246,7 @@ body {
   height: 63px;
 }
 
-.work2-content > h2 {
+.work2-content > h3 {
   width: 337px;
   height: 81px;
   font-family: 'Crete Round', sans-serif;
@@ -234,14 +254,10 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: ##fff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.work2-content > h1 {
-  display: none;
 }
 
 .work2-content ul {
@@ -255,6 +271,7 @@ body {
   flex: none;
   order: 2;
   flex-grow: 0;
+  padding-top: 50px;
 }
 
 .work2-content > p {
@@ -265,7 +282,7 @@ body {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-  margin-top: 10px;
+  margin-top: -30px;
   color: #fff;
   flex: none;
   order: 1;
@@ -331,9 +348,9 @@ body {
   padding: 12px;
 }
 
-.about-me1-separation {
-  margin-right: 142px;
-  margin-left: 142px;
+.about-me1-separation .line2 {
+  margin-right: 130px;
+  margin-left: 130px;
 }
 
 /* About me 2 */
@@ -341,14 +358,19 @@ body {
 .about-me-2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 206px;
+  gap: 150px;
   padding-bottom: 146px;
-  margin-left: 400px;
+  width: 100%;
 }
 
 .discussion {
-  justify-content: left;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 20px;
+  width: 289.46px;
+  height: 281.46px;
 }
 
 .form-grid {
@@ -392,6 +414,9 @@ body {
 .input1 {
   display: flex;
   flex-direction: column;
+  gap: 5px;
+  padding-top: 10px;
+  padding-left: 0;
 }
 
 .separator1 {
@@ -400,6 +425,7 @@ body {
   max-width: 530px;
   margin-top: 10px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .sm-two {
@@ -409,149 +435,4 @@ body {
 
 .separator-2 {
   display: none;
-}
-
-/* .work1 content */
-
-.work1-content {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-/* Menu */
-
-nav {
-  padding: 0;
-  height: 60px;
-}
-
-.menu-bar {
-  display: flex;
-  margin: 20px 151px 27px 27px;
-  list-style-type: none;
-  gap: 32px;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-}
-
-.hamburger > img {
-  display: none;
-}
-
-.main-logo {
-  margin-left: 154px;
-  margin-top: 26px;
-  padding: 0;
-}
-
-.separator {
-  margin-bottom: 24px;
-  border-color: #dfe1e6;
-}
-
-/* pop up */
-
-.popUp {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100vw;
-  max-height: 100vh;
-  padding: 24px;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
-  background: #fff;
-  backdrop-filter: blur(17px);
-  z-index: 1000;
-}
-
-/* .popup-container {
-  position: fixed;
-  inset: 0 0 0 0;
-  background: rgba(121, 141, 171, 0.3);
-  backdrop-filter: blur(17px);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: translateX(100%);
-  transition: transform 300ms ease-in;
-}
-
-.popup-container[showPopup="true"] {
-  transform: translateX(0%);
-} */
-.pop-up-desktop-1 {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 25px;
-}
-
-.pop-up-desktop-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin-top: -100px;
-}
-
-.pop-up-btn1 {
-  margin-top: 380px;
-  justify-content: end;
-  margin-left: -17px;
-}
-
-.pop-up-btn2 {
-  margin-top: 380px;
-  justify-content: end;
-  margin-left: 0;
-}
-
-.pop-up-image {
-  margin-top: 0;
-  margin-bottom: 15px;
-  height: 350px;
-  width: 650px;
-}
-
-.pop-up-h1 {
-  font-family: "Crete Round", serif;
-  font-size: 32px;
-  width: 450px;
-  font-weight: 400;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #172b4d;
-  margin-top: 0;
-}
-
-.pop-up-top {
-  height: auto;
-}
-
-.pop-up-languages {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #3c3a39;
-  margin-top: -50px;
-}
-
-.pop-up-description {
-  width: 424px;
-  height: 336px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: -320px;
-  margin-left: 10px;
 }
