@@ -33,7 +33,7 @@
               </div>
             </nav>
           </header>
-          <section class="main-section" >
+          <section class="main-section" id="portfolio">
             <div class="background-adjust">
               <div class="details">
                 <h1>Hey There. I`m Sulaiman</h1>
@@ -62,7 +62,7 @@
       
           <div class="work-1">
             <div class="work1-visual">
-              <h4>My Recent Works</h4>
+              <h1>My Recent Works</h1>
               <div class="line"></div>
             </div>
             <div class="work1-content">
@@ -90,77 +90,7 @@
             </div>
           </div>
           <div class="work-display">
-          <div class="work-2">
-            <div class="work2-content">
-              <h3>Profesional Art Printing Data</h3>
-              <p>First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-              <ul>
-                <li class="list2">HTML</li>
-                <li class="list2">Bootstrap</li>
-                <li class="list2">Ruby </li>
-              </ul>
-            </div>
-            <div class="work2-button"><button type="button">See Project</button></div>
-        </div>
-          <div class="work-2">
-            <div class="work2-content">
-              <h3>Data Dashboard Healthcare</h3>
-              <p>First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-              <ul>
-                <li class="list2">HTML</li>
-                <li class="list2">Bootstrap</li>
-                <li class="list2">Ruby </li>
-              </ul>
-            </div><div class="work2-button"><button type="button">See Project</button></div>
-        </div>
-          <div class="work-2">
-            <div class="work2-content">
-              <h3>Website Portfolio</h3>
-              <p>Third A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-              <ul>
-                <li class="list2">HTML</li>
-                <li class="list2">Bootstrap</li>
-                <li class="list2">Ruby </li>
-              </ul>
-            </div>
-            <div class="work2-button"><button type="button">See Project</button></div>
-        </div>
-          <div class="work-2">
-            <div class="work2-content">
-              <h3>Profesional Art Printing Data</h3>
-              <p>First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-              <ul><li class="list2">HTML</li>
-                <li class="list2">Bootstrap</li>
-                <li class="list2">Ruby </li>
-              </ul>
-            </div>
-            <div class="work2-button"><button type="button">See Project</button></div>
-        </div>
-      <div class="work-2">
-        <div class="work2-content">
-          <h3>Data Dashboard Healthcare</h3>
-          <p>Sixth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-          <ul>
-            <li class="list2">HTML</li>
-            <li class="list2">Bootstrap</li>
-            <li class="list2">Ruby </li>
-          </ul>
-        </div>
-        <div class="work2-button"><button type="button">See Project</button></div>
-      </div>
-      <div class="work-2">
-        <div class="work2-content">
-          <h3>Website Portfolio</h3>
-          <p>Sixth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard</p>
-          <ul>
-            <li class="list2">HTML</li>
-            <li class="list2">Bootstrap</li>
-            <li class="list2">Ruby </li>
-          </ul>
-        </div>
-        <div class="work2-button"><button type="button">See Project</button></div>
-      </div>
-        </div>
+            <div id="overlay"></div></div>
           <div class="popUp-Container"></div>
         </section>
         <section class="about-me-section" id="about">
@@ -221,7 +151,7 @@
              </li>
           </ul>
         </section>
-        <div class="form-section" id="contact" >
+        <div class="form-section" id="contact">
           <a href="#form"></a>
           <div class="form-grid">
             <h2>
@@ -257,5 +187,24 @@
         </ul>
       <div class="separator-2"></div>
     </div>
+      <div class="mobile-menu">
+        <div class="mobile-menu-div">
+          <div class="close" onclick="hideMenu()">
+            <img src="./png/hamburger-close.png" alt="Menu">
+          </div>
+          <ul class="mobile-menu-ul">
+            <li class="mobile-menu-li-1 portfolio">Portfolio</li>
+            <li class="mobile-menu-li-2"></li>
+            <li class="mobile-menu-li-1 about">About</li>
+            <li class="mobile-menu-li-2"></li>
+            <li class="mobile-menu-li-1 contact">Contact</li>
+            <li class="mobile-menu-li-2"></li>
+          </ul>
+        </div>
+        <div class="bottom-menu">
+          <div class="separator-menu"></div>
+        </div>
+      </div>
+    <script src="./script.js"></script>  
 </body>
 </html>
