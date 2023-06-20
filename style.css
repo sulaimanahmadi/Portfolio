@@ -760,6 +760,11 @@ p {
   margin-right: 24px;
 }
 
+.close {
+  padding: 40px 24px 12px 325px;
+  text-align: right;
+}
+
 .bottom-menu {
   background-color: white;
   margin-top: 479px;
