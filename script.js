@@ -138,7 +138,7 @@ function hide(toHide) {
   toHide.classList.add('hide');
 }
 const workContainer = document.querySelector('.work-display');
-
+const backgroundBlur = document.querySelector(".container");
 const showWorkPopup = (index) => {
   // Define the targets
   const main = document.querySelector('.A');
@@ -197,10 +197,13 @@ const showWorkPopup = (index) => {
   closePopup.addEventListener('click', () => {
     hide(sectionPopup);
     main.removeChild(sectionPopup);
+    backgroundBlur.style.filter = 'blur(0px)';
   });
 
   // Show
   show(sectionPopup);
+  backgroundBlur.style.filter = 'blur(10px)';
+
 };
 // dynamic content
 
@@ -235,7 +238,3 @@ seeProjectButtons.forEach((button, index) => {
   button.onclick = () => showWorkPopup(index);
   
 });
-
-
-const backgroundBlur = document.querySelector(".container");
-  backgroundBlur.style.filter = 'blur(10px)';
