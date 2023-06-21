@@ -793,11 +793,11 @@ p {
   gap: 24px;
   position: fixed;
   width: 343px;
-  height:620px;
-  left: calc(50% - 343px/2);
+  height: 620px;
+  left: calc(50% - 343px / 2);
   top: 30px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
 }
 
 .mobile-pop-up {
@@ -826,7 +826,7 @@ p {
   line-height: 44px;
   margin-top: -5px;
   margin-left: 10px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .close-icon-2 {
@@ -851,7 +851,6 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  align-items: center;
   width: 100px;
   height: 36px;
   display: flex;
@@ -868,23 +867,22 @@ p {
 
 .pop-up-description {
   width: 311px;
-height: 220px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-top: 20px;
-margin-left: 20px;
+  height: 220px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .pop-up-buttons {
   display: flex;
-  margin-top: 12px;
   max-width: 311px;
   justify-content: left;
   gap: 13px;
