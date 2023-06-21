@@ -785,10 +785,19 @@ p {
 /* Mobile Popup */
 
 .popUp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
   position: fixed;
-  top: 0;
-  background-color: white;
-  padding: 24px;
+  width: 343px;
+  height:620px;
+  left: calc(50% - 343px/2);
+  top: 30px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
 }
 
 .mobile-pop-up {
@@ -808,20 +817,21 @@ p {
 }
 
 .pop-up-h1 {
-  width: 80%;
+  width: 259px;
+  height: 82px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 20;
   font-size: 25px;
   line-height: 44px;
-  color: #172b4d;
-  margin: 0;
-  margin-left: 30px;
-  padding-top: 10px;
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #172B4D; */
+
 }
 
 .close-icon-2 {
-  margin-right: 14px;
+  margin-right: 4px;
   width: 24px;
   height: 24px;
   margin-top: 5px;
@@ -832,36 +842,45 @@ p {
   display: flex;
   gap: 12px;
   padding-left: 0;
-  margin-left: 30px;
+  width: 70px;
+  margin-right: 220px;
+  margin-top: -10px;
 }
 
 .pop-up-language-li {
-  border: 1px solid #979493;
+  box-sizing: border-box;
+  flex-direction: row;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3c3a39;
-  padding: 12px;
+  padding: 10px 12px;
+  align-items: center;
+  width: 100px;
+  height: 36px;
+  display: flex;
+  border: 1px solid #979493;
+  gap: 10px;
 }
 
 .pop-up-image {
-  width: 80%;
-  height: 300px;
-  padding-left: 30px;
+  width: 301px;
+  height: 220px;
+  padding-left: 20px;
+  margin-top: -10px;
 }
 
 .pop-up-description {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-left: 30px;
-  margin-top: 20px;
+  width: 311px;
+height: 220px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 20px;
+margin-left: 20px;
 }
 
 .pop-up-buttons {
@@ -869,15 +888,16 @@ p {
   margin-top: 12px;
   max-width: 311px;
   justify-content: left;
-  gap: 19px;
+  gap: 13px;
   width: 100%;
   padding: 0;
-  margin-left: 30px;
+  margin-left: 15px;
+  margin-top: -110px;
 }
 
 .pop-up-btn1 {
-  width: 150px;
-  height: 50px;
+  width: 129px;
+  height: 48px;
   color: white;
   border: #ff6b00;
   background-color: #ff6b00;
@@ -892,8 +912,8 @@ p {
 }
 
 .pop-up-btn2 {
-  width: 150px;
-  height: 50px;
+  width: 154px;
+  height: 48px;
   color: white;
   border: #ff6b00;
   background-color: #ff6b00;

@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
 const projects = [
   {
     // First Project
-    name: 'Profesional Art Printing Data',
+    name: 'Multi Post Stories',
     discription:
       'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
@@ -166,7 +166,7 @@ const showWorkPopup = (index) => {
     ['pop-up-language-li'],
     languagePopups,
   );
-  languagePopup3.textContent = 'Ruby on Rails';
+  languagePopup3.textContent = 'Ruby';
   const desktop1Popup = addElement('div', ['pop-up-desktop-1'], sectionPopup);
   const imagePopup = addElement('img', ['pop-up-image'], desktop1Popup);
   imagePopup.setAttribute(
