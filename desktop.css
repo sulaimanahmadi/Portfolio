@@ -491,7 +491,7 @@ nav {
   padding: 24px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .pop-up-desktop-1 {
@@ -500,7 +500,6 @@ nav {
   gap: 25px;
   width: 130vh;
   height: 55vh;
-  
 }
 
 .pop-up-desktop-2 {
@@ -571,7 +570,7 @@ body.active-popUp .popUp {
   letter-spacing: 0;
   text-align: left;
   color: #3c3a39;
-  margin-top: -20px;;
+  margin-top: -20px;
 }
 
 .pop-up-description {
