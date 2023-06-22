@@ -793,7 +793,7 @@ p {
   gap: 24px;
   position: fixed;
   width: 343px;
-  height: 620px;
+  height: 750px;
   left: calc(50% - 343px / 2);
   top: 30px;
   background: #fff;
@@ -889,7 +889,7 @@ p {
   width: 100%;
   padding: 0;
   margin-left: 15px;
-  margin-top: -110px;
+  margin-top: 50px;
 }
 
 .pop-up-btn1 {
