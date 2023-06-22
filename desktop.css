@@ -513,7 +513,7 @@ nav {
 .pop-up-image {
   width: 620px;
   height: 420px;
-  margin-left: -40px;
+  margin-left: 10px;
 }
 
 .pop-up-h1 {
@@ -575,10 +575,10 @@ nav {
 }
 
 .pop-up-btn1 {
-  margin-top: 93px;
+  margin-top: 163px;
   margin-left: 15px;
 }
 
 .pop-up-button2 {
-  margin-top: 93px;
+  margin-top: 163px;
 }
