@@ -40,7 +40,7 @@ const projects = [
     discription:
       'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',
@@ -54,7 +54,7 @@ const projects = [
     discription:
       'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',
@@ -68,7 +68,7 @@ const projects = [
     discription:
       'Third A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Third Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing .',
+      'Third Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',
@@ -81,7 +81,7 @@ const projects = [
     discription:
       'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',
@@ -95,7 +95,7 @@ const projects = [
     discription:
       'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+      'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',
@@ -109,7 +109,7 @@ const projects = [
     discription:
       'Sixth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
     discriptionDesktop:
-      'Sixth Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+      'Sixth Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: [
       'https://en.wikipedia.org/wiki/HTML',

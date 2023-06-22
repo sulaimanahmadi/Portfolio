@@ -877,7 +877,7 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
@@ -943,8 +943,10 @@ p {
 
 .pop-up-button1 {
   list-style-type: none;
+  margin-top: -40px;
 }
 
 .pop-up-button2 {
   list-style-type: none;
+  margin-top: -40px;
 }
