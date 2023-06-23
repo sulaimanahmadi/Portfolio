@@ -241,7 +241,7 @@ seeProjectButtons.forEach((button, index) => {
 const emailForm = document.querySelector('#mail');
 const popUpForm = document.querySelector('.form-popup');
 const submit = document.querySelector('.submit');
-const form = document.querySelector('.from1')
+const form = document.querySelector('.from1');
 
 submit.addEventListener('click', (event) => {
   event.preventDefault();
