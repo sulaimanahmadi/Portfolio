@@ -950,3 +950,15 @@ p {
   list-style-type: none;
   margin-top: -40px;
 }
+
+.form-popup {
+  display: none;
+  margin: 0 60px 0 60px;
+  background-color: cornsilk;
+  border: 1px solid #c25100;
+}
+
+.form-popup-text {
+  color: #c25100;
+  text-align: center;
+}
