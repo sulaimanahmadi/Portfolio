@@ -236,3 +236,21 @@ const seeProjectButtons = document.querySelectorAll('.work-show-button');
 seeProjectButtons.forEach((button, index) => {
   button.onclick = () => showWorkPopup(index);
 });
+
+// form element-email validation
+const emailForm = document.querySelector('#mail');
+const popUpForm = document.querySelector('.form-popup');
+const submit = document.querySelector('.submit');
+const form = document.querySelector('.from1');
+
+submit.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  if (/[A-Z]/.test(emailForm.value)) {
+    popUpForm.style.display = 'block';
+  } else {
+    popUpForm.style.display = 'none';
+    form.submit();
+    form.reset();
+  }
+});
